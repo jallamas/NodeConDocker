@@ -11,5 +11,5 @@ docker build -t jallamas/tienda .
 ## 3. Creamos y ejecutamos el contenedor con el comando:
 
 ```docker
-docker run --name nodejs-tienda -p 80:8080 -d jallamas/tienda
+docker run --name nodejs-tienda -p 3000:3000 -d jallamas/tienda
 ```
